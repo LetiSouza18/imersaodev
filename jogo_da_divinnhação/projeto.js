@@ -29,7 +29,7 @@ if (i < 10){
   }   
   }
 
-function reiniciarJogo(){
-    location.reload();
-    alert('Jogo reiniciado')
-   }
+//function reiniciarJogo(){
+  //  location.reload();
+  //  alert('Jogo reiniciado')
+   //}
