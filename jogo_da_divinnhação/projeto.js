@@ -17,7 +17,7 @@ if (i < 10){
     }
   }else if (chute == numeroSecreto) {
       alert('Acertou! Parabéns!');
-      alert('Duvido você a acertar de novo...');
+      alert('Duvido você a acertar de novo..');
       location.reload();
     }
   
