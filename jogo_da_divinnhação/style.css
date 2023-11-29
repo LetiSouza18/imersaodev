@@ -1,0 +1,95 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+    /*background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");*/
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    padding-top: 30px;
+    width: 170px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 300px;
+  }
+  
+  #second-title {
+    color: #ffffff;
+    margin-top: 25px;
+    padding-bottom: 40px;
+  }
+  
+  button{
+    width: 200px;
+    height: 27px;
+    border-radius: 0.25em;
+    border-style: solid;
+    border-width: 1px;
+    color: #111;
+    display: inline-block;
+    font-family: avenir, helvetica, roboto, arial, sans-serif;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: color 0.4s, background-color 0.4s, border 0.4s;
+    transition: color 0.4s, background-color 0.4s, border 0.4s; 
+}
+  
+button:hover{
+        color: #044f6d;
+        border: 1px solid #7FDBFF;
+        -webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+        transition: background-color 0.3s, color 0.3s, border 0.3s; 
+    }
+
+
+  #chute{
+    width: 215px;
+    border-radius: 0.25em;
+    border-style: solid;
+    border-width: 1px;
+    color: #111;
+    display: inline-block;
+    font-family: avenir, helvetica, roboto, arial, sans-serif;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    margin-right: 10px;
+    padding: 1em 1.7em;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: color 0.4s, background-color 0.4s, border 0.4s;
+    transition: color 0.4s, background-color 0.4s, border 0.4s; 
+  }
